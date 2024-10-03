@@ -1,0 +1,58 @@
+
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+.container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: rgb(216, 216, 15);
+    padding: 50px;
+    border-radius: 30px;
+}
+
+form {
+    margin-bottom:20px; /* Espacio entre el formulario y el resto del contenido */
+}
+
+input{
+margin: 10px;
+border-radius: 7px;
+}
+
+button{
+border-radius: 8px;
+padding: 10px 30px;
+background-color: #d31717 ;
+color: white;
+}
+button:hover{
+    background-color:#ffaa00;
+}
+
+span{
+    font-size: 25px;
+
+}
+
+#totalidad{
+    font-size: 30px;
+}
+
+.pesoTotal {
+    background-color: #ff6f00;
+    padding: 3px;
+    border-radius: 25px;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.text-arriba{
+    font-size: 29px;
+    align-items: center;
+    margin: -20px 0 10px 0;
+}

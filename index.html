@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de peso mieles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="prompt.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="text-arriba">
+                <p>Calculadora de kilos y cajas de miel</p>
+            </div>
+            <div>
+                <label>900g</label>
+                <input id="900" type="number" placeholder="Cantidad cajas de 900g">
+            </div>
+            <div>
+                <label>500g</label>
+                <input id="500"type="number" placeholder="Cantidad cajas de 500g">
+            </div>
+            <div>
+                <label>250g</label>
+                <input id="250" type="number" placeholder="Cantidad cajas de 250g">
+            </div>
+        </form>
+        <p>Peso de 900g: <span id="resultado900">0 KG</span></p>
+        <p>Peso de 500g: <span id="resultado500">0 KG</span></p>
+        <p>Peso de 250g: <span id="resultado250">0 KG</span></p>
+        <br>
+        <p class="pesoTotal">Peso total: <span id="totalidad">0 KG</span></p>
+        <br>
+        <br>
+        <div>
+            <button type="button" onclick="sumar()">SUMAR</button>         
+        </div>
+    </div>
+</body>
+</html>
